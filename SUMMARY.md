@@ -1,4 +1,8 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Introduction](README.md)
+
+## Algorithm
+
+* [프로그래머스](algorithm/undefined.md)
 
