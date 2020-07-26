@@ -14,7 +14,7 @@
   * [String.format](hacker-rank-1/code-grammar/string.format.md)
   * [Scanner](hacker-rank-1/code-grammar/hacker-rank.md)
 
-## 코딩인터뷰 완전분석
+## Cracking The Coding Interview <a id="undefined"></a>
 
 * [배열과 문자열 해법](undefined/undefined.md)
 
