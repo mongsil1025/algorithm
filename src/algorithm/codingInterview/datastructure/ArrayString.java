@@ -14,10 +14,15 @@ public class ArrayString {
 	public static void main(String[] args) {
 		
 		String str = "aksldfwerq";
-		System.out.println(isUniqueChars(str) == true ? "Yes It's unique String" : "No it has duplicated character");
+		System.out.println(isUniqueChars2(str) == true ? "Yes It's unique String" : "No it has duplicated character");
 		
 	}
 	
+	/**
+	 * 가독성 높은 코드
+	 * @param str
+	 * @return
+	 */
 	public static boolean isUniqueChars(String str) {
 		if(str.length() > 128) {
 			return false;
@@ -29,6 +34,24 @@ public class ArrayString {
 				return false; // 중복
 			}
 			char_set[val] = true;
+		}
+		return true;
+	}
+	
+	/**
+	 * 비트연산자를 이용한 메모리 최소화
+	 * @param str
+	 * @return
+	 */
+	public static boolean isUniqueChars2(String str) {
+		int checker = 0;
+		for (int i=0; i<str.length(); i++) {
+			int val = str.charAt(i) - 'a';
+			if((checker & (1 << val)) > 0) {
+				return false;
+			}
+			checker |= (1 << val);
+			
 		}
 		return true;
 	}
