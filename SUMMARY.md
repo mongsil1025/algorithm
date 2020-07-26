@@ -8,6 +8,9 @@
 
 ## Hacker Rank <a id="hacker-rank-1"></a>
 
-* [Scanner](hacker-rank-1/hacker-rank.md)
-* [String.format](hacker-rank-1/string.format.md)
+* [Coding Test Guideline](hacker-rank-1/coding-test-guideline/README.md)
+  * [Essential Guideline](hacker-rank-1/coding-test-guideline/essential-guideline.md)
+* [Code Grammar](hacker-rank-1/code-grammar/README.md)
+  * [String.format](hacker-rank-1/code-grammar/string.format.md)
+  * [Scanner](hacker-rank-1/code-grammar/hacker-rank.md)
 
