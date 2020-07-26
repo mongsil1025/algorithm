@@ -4,9 +4,10 @@
 
 ## Algorithm
 
-* [프로그래머스](algorithm/undefined.md)
+* [Programmers](algorithm/undefined.md)
 
----
+## Hacker Rank <a id="hacker-rank-1"></a>
 
-* [Hacker Rank](hacker-rank.md)
+* [Scanner](hacker-rank-1/hacker-rank.md)
+* [String.format](hacker-rank-1/string.format.md)
 

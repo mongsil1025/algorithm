@@ -1,6 +1,6 @@
 # Introduction
 
-## 더 좋은 개발자가 되기 위한 걸
+## 더 좋은 개발자가 되기 위한 Step
 
 {% hint style="info" %}
 3년간 정체되어 있는 나를 위한 Refresh
