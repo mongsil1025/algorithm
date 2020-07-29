@@ -14,7 +14,7 @@ public class ArrayString {
 	public static void main(String[] args) {
 		
 		String str = "aksldfwerq";
-		System.out.println(isUniqueChars2(str) == true ? "Yes It's unique String" : "No it has duplicated character");
+		System.out.println(isUniqueChars(str) == true ? "Yes It's unique String" : "No it has duplicated character");
 		
 	}
 	
