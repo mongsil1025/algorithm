@@ -1,4 +1,4 @@
-package algorithm.codingInterview.datastructure;
+package algorithm.codingInterview.datastructure.arrayString;
 
 import java.util.Scanner;
 
