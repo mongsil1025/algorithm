@@ -15,8 +15,6 @@ public class RotateMetrics {
 		
 		int N = scan.nextInt();
 		
-		scan.close();
-		
 		int[][] ary_img = new int[N][N];
 		
 		for(int i=0; i<N; i++) {
