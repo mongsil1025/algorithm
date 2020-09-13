@@ -6,6 +6,12 @@ public class LinkedList {
 	
 	// 노드 생성자
 	static class Node {
+		public Node() {
+
+		}
+		public Node(int data) {
+			this.data = data;
+		}
 		int data;
 		Node next = null;
 	}
@@ -44,6 +50,31 @@ public class LinkedList {
 		}
 		System.out.print(n.data);
 		System.out.println();
+	}
+	
+	int length() {
+		
+		Node n = header;
+		int len = 0;
+		while(n.next != null) {
+			len++;
+			n = n.next;
+		}
+		
+		return len;
+	}
+	
+	void padList(int padding) {
+		for(int i=0; i<padding; i++) {
+			insertBefore(padding);
+		}
+	}
+	
+	// data 를 리스트 맽 앞에 붙인다.
+	void insertBefore(int data) {
+		Node n = new Node(data);
+		n.next = this.header.next;
+		this.header = n;
 	}
 
 	public static void main(String args[]) {
