@@ -42,6 +42,14 @@ public class LinkedList {
 		}
 	}
 	
+	Node get(int idx) {
+		Node n = header.next;
+		for(int i=0; i<idx; i++) {
+			n = n.next;
+		}
+		return n;
+	}
+	
 	void retrieve() {
 		Node n = header.next;
 		while(n.next != null) {
