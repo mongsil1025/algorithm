@@ -1,4 +1,4 @@
-package algorithm.hackerRank.practice;
+package algorithm.hackerRank.interview.array;
 
 import java.io.*;
 import java.math.*;
