@@ -27,6 +27,7 @@ public class NewYearCaos {
         for(int i=0; i<size; i++) {
 
             int origin = list.get(0);
+            // list.removeIf(x -> x.equals(origin));
             if(origin == q.get(i)) {
                 // PASS
                 list.remove(0);
