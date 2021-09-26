@@ -47,28 +47,28 @@ public class RotateArray {
 
     }
 
-    public static void rotate_2(int[] nums, int k) {
-        int length = nums.length;
-        if (k > length) k = k % length;
-        int[] left = new int[length - k];
-        int[] right = new int[k];
+    // public static void rotate_2(int[] nums, int k) {
+    //     int length = nums.length;
+    //     if (k > length) k = k % length;
+    //     int[] left = new int[length - k];
+    //     int[] right = new int[k];
 
-        for(int i=0; i<left.length; i++){
-            left[i] = nums[i];
-        }
-        for(int i=0; i<right.length; i++){
-            right[i] = nums[length - k + i];
-        }
-        reverse(left);
-        reverse(right);
+    //     for(int i=0; i<left.length; i++){
+    //         left[i] = nums[i];
+    //     }
+    //     for(int i=0; i<right.length; i++){
+    //         right[i] = nums[length - k + i];
+    //     }
+    //     reverse(left);
+    //     reverse(right);
 
-        for(int i=0; i<right.length; i++) {
-            nums[i] = right[right.length - 1 - i];
-        }
-        for(int i=0; i < left.length; i++) {
-            nums[i + k] = left[left.length - 1 - i];
-        }
-    }
+    //     for(int i=0; i<right.length; i++) {
+    //         nums[i] = right[right.length - 1 - i];
+    //     }
+    //     for(int i=0; i < left.length; i++) {
+    //         nums[i + k] = left[left.length - 1 - i];
+    //     }
+    // }
 
     /**
      *  1. Reverse two array
