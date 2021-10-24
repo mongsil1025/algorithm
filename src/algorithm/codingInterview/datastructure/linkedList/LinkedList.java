@@ -20,15 +20,12 @@ public class LinkedList {
 		header = new Node();
 	}
 	
-	void append(int d) {
-		Node end = new Node();
-		end.data = d;
-		
+	void append(int d){
 		Node n = header;
 		while(n.next != null) {
 			n = n.next;
-		}		
-		n.next = end;		
+		}
+		n.next = new Node(d);
 	}
 	
 	void delete(int d) {
