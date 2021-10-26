@@ -1,4 +1,4 @@
-package algorithm.cracking.Algorithm;
+package algorithm.cracking.dataStructure;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -27,7 +27,7 @@ public class GraphByList {
     // 0 : {2, 3, 1}    1 : {0, 2}
     // 3 : {0, 2}       2 : {3, 0, 1}
     public static class Graph<T> {
-        Map<T, ArrayList<T>> hashMap;
+        public Map<T, ArrayList<T>> hashMap;
         public Graph() {
             hashMap = new HashMap<>();
         }

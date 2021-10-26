@@ -1,4 +1,4 @@
-package algorithm.cracking.Algorithm;
+package algorithm.cracking.dataStructure;
 
 import java.util.Arrays;
 
